@@ -1,0 +1,22 @@
+{
+  "name": "ed-tunnel",
+  "version": "1.0.0",
+  "description": "A Server less v2ray proxy server (vless) for Cloudflare worker",
+  "main": "/src/index.ts",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "login": "wrangler login"
+  },
+  "author": "mralinp",
+  "license": "MIT",
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20241022.0",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.4",
+    "webpack": "^5.95.0",
+    "webpack-cli": "^5.1.4",
+    "wrangler": "^3.83.0"
+  }
+}
